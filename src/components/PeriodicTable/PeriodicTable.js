@@ -10,7 +10,6 @@ function PeriodicTable({ props }) {
 	useEffect(() => {
 		axios.get('https://ozanorkun.github.io/periyodik-tablo/api.json').then((res) => {
 			setElementData(res.data);
-			console.log(res.data);
 		});
 	}, []);
 
