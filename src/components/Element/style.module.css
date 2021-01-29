@@ -1,0 +1,25 @@
+.element {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.element:hover {
+	transform: scale(1.16, 1.16);
+	z-index: 1;
+}
+
+.number {
+	font-size: 8px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.name {
+	font-size: 8px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}

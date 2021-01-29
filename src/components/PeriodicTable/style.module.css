@@ -2,6 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(18, 55px);
 	grid-template-rows: repeat(10, 55px);
+	gap: 3px;
 
 	/*******Ortalamak için kullanılan yaygın ifadenin başlangıcı*******/
 
@@ -15,3 +16,5 @@
 
 	/*******Ortalamak için kullanılan yaygın ifadenin sonu*******/
 }
+
+
