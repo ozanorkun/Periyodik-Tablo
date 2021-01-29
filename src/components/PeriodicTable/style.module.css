@@ -1,3 +1,17 @@
 .periodicTable {
-	font-size: 16px;
+	display: grid;
+	grid-template-columns: repeat(18, 55px);
+	grid-template-rows: repeat(10, 55px);
+
+	/*******Ortalamak için kullanılan yaygın ifadenin başlangıcı*******/
+
+	position: absolute;
+	top: 50%; /*periodicTable elemanının sol üst kenarı, bağlı bulunduğu kapsayıcıya göre %50 aşağı iner.*/
+	left: 50%; /*periodicTable elemanının sol üst kenarı, bağlı bulunduğu kapsayıcıya göre %50 sağa gider*/
+	transform: translate(
+		-50%,
+		-50%
+	); /*periodicTable elemanı bağımsız olarak (kendini baz alarak) genişliğinin %50'si kadar sola, yüksekliğinin %50'si kadar yukarı gider. Böylece kapsayıcısı içinde ortalanmış olur.*/
+
+	/*******Ortalamak için kullanılan yaygın ifadenin sonu*******/
 }

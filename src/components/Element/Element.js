@@ -1,7 +1,11 @@
 import styles from './style.module.css';
 
-function Element({ elementSymbol }) {
-	return <div className={styles.Element}>{elementSymbol}</div>;
+function Element({ element }) {
+	return (
+		<div style={{ gridColumn: element.xpos, gridRow: element.ypos }} className={styles.Element}>
+			{element.symbol}
+		</div>
+	);
 }
 
 export default Element;
