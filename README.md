@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1da5a02-1e1a-4375-9b7c-c15b19c9e7ff/deploy-status)](https://app.netlify.com/sites/periyodik-tablo/deploys)
+
 [LIVE LINK](https://periyodik-tablo.netlify.app)
 
 #### This App Still in Development
