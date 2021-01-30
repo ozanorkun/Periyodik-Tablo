@@ -15,7 +15,7 @@ Element information card and some other features will be added
 
 [JSON API](https://ozanorkun.github.io/periyodik-tablo/api.json)
 
-Periodic Table (Turkish) JSON API developed by me inspired from https://github.com/Bowserinator. 
+Periodic Table (Turkish) JSON API **developed by me** inspired from https://github.com/Bowserinator. 
 
 Hosted on **Netlify**.
 
